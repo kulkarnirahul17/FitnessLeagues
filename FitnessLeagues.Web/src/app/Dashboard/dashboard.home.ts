@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'dashboard-home',
-    template: `
-      <h1>
-        Welcome to {{title}}!!
-      </h1>
-    `,
+    templateUrl: 'dashboard.home.html',
     styles: []
   })
 
